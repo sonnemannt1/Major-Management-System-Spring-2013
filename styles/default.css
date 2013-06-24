@@ -1,0 +1,72 @@
+﻿	.centerTabs {
+		background: white;
+		height: 100%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	
+	.selectedTab {
+		background: gold;
+		color: black;
+	}
+	
+	.inactiveTab {
+		background: #0099FF;
+		color: black;
+	}
+	
+	.tabHover {
+		background: #00CCFF;
+		color: black;
+	}
+	
+	.tabContainer {
+		background: gray;
+		position: relative;
+		width: 100%;
+		height: 5%;
+	}
+	
+	.activeTabContent {
+		position: relative;
+		height: 100%;
+		visibility: visible;
+	}
+	
+	.inactiveTabContent {
+		position: absolute;
+		height: 100%;
+		visibility: hidden;
+	}
+	
+	.classesTable {
+		border-style: solid;
+		border-width: 1px;
+		border-color: white;
+	}
+	
+	.classesTable td {
+		background: white;
+		color: black;
+	}
+	
+	.classesTable th {
+		background: #FFD700;
+		color: black;
+	}
+	
+	.prospectsTable {
+		border-style: solid;
+		border-width: 1px;
+		border-color: white;
+	}
+	
+	.prospectsTable td {
+		background: lightblue;
+		color: black;
+	}
+	
+	.prospectsTable th {
+		background: #FFD700;
+		color: black;
+	}
